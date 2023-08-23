@@ -47,7 +47,7 @@ const SearchForm = () => {
                 label="Nombre del plato"
                 rules={[{ required: true, message: 'Debe ingresar el nombre del plato' }]}
               >
-                <Input placeholder="Nombre del plato" />
+                <Input />
               </Form.Item>
             </Col>
 
